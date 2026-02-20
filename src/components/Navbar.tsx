@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, Leaf } from "lucide-react";
-import { CartDrawer } from "@/components/CartDrawer";
+import { ShoppingCart, Menu, X, Leaf } from "lucide-react";
+import { useCart } from "@/hooks/useCart";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileOpen, setIsMobileOpen] = useState(false);
+  const { itemCount } = useCart();
   const location = useLocation();
 
   useEffect(() => {
@@ -73,9 +74,19 @@ const Navbar = () => {
             ))}
           </div>
 
-          {/* Cart Drawer + Mobile Toggle */}
+          {/* Cart + Mobile Toggle */}
           <div className="flex items-center gap-4">
-            <CartDrawer />
+            <Link
+              to="/cart"
+              className="relative p-2 text-cream hover:text-gold transition-colors"
+            >
+              <ShoppingCart className="w-6 h-6" />
+              {itemCount > 0 && (
+                <span className="absolute -top-1 -right-1 w-5 h-5 bg-gold text-accent-foreground rounded-full text-xs flex items-center justify-center font-bold">
+                  {itemCount}
+                </span>
+              )}
+            </Link>
             <button
               className="md:hidden text-cream hover:text-gold transition-colors"
               onClick={() => setIsMobileOpen(!isMobileOpen)}
