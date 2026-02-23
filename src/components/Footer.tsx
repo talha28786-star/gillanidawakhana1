@@ -72,19 +72,20 @@ const Footer = () => {
               <div className="flex items-start gap-3">
                 <Phone className="w-4 h-4 text-gold mt-0.5 flex-shrink-0" />
                 <div>
-                  <p className="text-cream/90 text-sm">+92 300 000 0000</p>
+                  <p className="text-cream/90 text-sm">0313 7942009</p>
                   <p className="text-cream/60 text-xs">Available 9am – 9pm</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-gold mt-0.5 flex-shrink-0" />
-                <p className="text-cream/70 text-sm">
-                  Main Bazaar, Gillani Chowk,<br />City, Pakistan
-                </p>
+                <div className="text-cream/70 text-sm">
+                  <p>1. Adda Gamber Okara Cantt, Pakistan</p>
+                  <p>2. Kacha Road, Kahna Nau Lahore, Pakistan</p>
+                </div>
               </div>
               <div className="flex items-start gap-3">
                 <Mail className="w-4 h-4 text-gold mt-0.5 flex-shrink-0" />
-                <p className="text-cream/70 text-sm">info@gillanidawakhana.com</p>
+                <p className="text-cream/70 text-sm">gillaniherbs5@gmail.com</p>
               </div>
 
               {/* Social */}
@@ -102,7 +103,7 @@ const Footer = () => {
                   <Instagram className="w-4 h-4" />
                 </a>
                 <a
-                  href="https://wa.me/923000000000"
+                  href="https://wa.me/923137942009"
                   className="w-8 h-8 rounded-full bg-gold/20 border border-gold/30 flex items-center justify-center hover:bg-gold/40 transition-colors text-gold"
                 >
                   <Phone className="w-4 h-4" />
