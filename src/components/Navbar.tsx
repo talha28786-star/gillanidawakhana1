@@ -32,7 +32,7 @@ const Navbar = () => {
     >
       {/* Top strip */}
       <div className="bg-gold text-accent-foreground text-center py-1 text-sm font-crimson">
-        ✦ 100% Pure & Organic Unani Formulations — Free Delivery on Orders Above Rs. 2000 ✦
+        ✦ Free Delivery All Pakistan ✦
       </div>
 
       <div className="container mx-auto px-4 py-3">
