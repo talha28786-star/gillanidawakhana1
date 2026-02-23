@@ -65,7 +65,7 @@ const allProducts = [
     id: 6,
     name: "Herbal Wellness Combo",
     subtitle: "Complete Unani Pack",
-    description: "Get Majoon-E-Jawan + Saffron Vitality Syrup together at a special price. A complete wellness routine from Gillani Dawakhana.",
+    description: "Get Majoon-E-Jawan + Saffron Vitality Syrup together at a special price. A complete wellness routine from Gillani Herb's.",
     price: 2500,
     originalPrice: 2750,
     image: productEnergy,
@@ -83,7 +83,7 @@ const Shop = () => {
         <div className="container mx-auto px-4 text-center">
           <div className="divider-ornament mb-3">
             <span className="text-gold font-crimson text-sm tracking-widest uppercase">
-              Gillani Dawakhana
+              Gillani Herb's
             </span>
           </div>
           <h1 className="font-playfair font-bold text-4xl text-cream mb-3">Our Products</h1>

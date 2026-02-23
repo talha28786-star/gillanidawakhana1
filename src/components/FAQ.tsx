@@ -8,7 +8,7 @@ const faqs = [
   },
   {
     q: "Are your products 100% organic and chemical-free?",
-    a: "Yes. All products at Gillani Dawakhana are formulated using 100% natural, organic ingredients. We do not use artificial preservatives, synthetic colors, or chemical additives. Our formulations follow classical Unani standards.",
+    a: "Yes. All products at Gillani Herb's are formulated using 100% natural, organic ingredients. We do not use artificial preservatives, synthetic colors, or chemical additives. Our formulations follow classical Unani standards.",
   },
   {
     q: "How should I take Majoon-E-Jawan?",

@@ -127,11 +127,11 @@ const Index = () => {
               </span>
             </div>
             <h2 className="font-playfair font-bold text-4xl text-foreground mb-6">
-              Gillani Dawakhana
+              Gillani Herb's
             </h2>
             <div className="h-0.5 w-24 bg-gold mx-auto mb-6" />
             <p className="text-muted-foreground font-crimson text-lg leading-relaxed mb-4">
-              Gillani Dawakhana is a trusted name in traditional Unani herbal medicine, 
+              Gillani Herb's is a trusted name in traditional Unani herbal medicine, 
               dedicated to providing pure, organic remedies crafted from high-quality natural ingredients. 
               Our expert herbalist brings decades of experience in classical Unani formulation.
             </p>
