@@ -31,7 +31,7 @@ const About = () => {
             <div className="rounded-2xl overflow-hidden border-2 border-gold/30 shadow-elegant">
               <img
                 src={sliderApothecary}
-                alt="Gillani Dawakhana traditional apothecary"
+                alt="Gillani Herb's traditional apothecary"
                 className="w-full h-[500px] object-cover"
               />
             </div>
@@ -43,7 +43,7 @@ const About = () => {
                 </span>
               </div>
               <h2 className="font-playfair font-bold text-4xl text-foreground mb-2">
-                Gillani Dawakhana
+                Gillani Herb's
               </h2>
               <p className="text-gold font-crimson text-xl italic mb-6">
                 Trusted Unani Herbalists Since Decades
@@ -51,7 +51,7 @@ const About = () => {
               <div className="h-0.5 w-20 bg-gold mb-6" />
               <div className="space-y-4 text-muted-foreground font-crimson text-lg leading-relaxed">
                 <p>
-                  Gillani Dawakhana was founded with a single mission: to bring the ancient healing wisdom 
+                  Gillani Herb's was founded with a single mission: to bring the ancient healing wisdom 
                   of Unani medicine to every household in Pakistan. Our expert herbalist has spent over 
                   two decades mastering the art of classical Unani formulation.
                 </p>
@@ -62,7 +62,7 @@ const About = () => {
                   of thousands of families across Pakistan.
                 </p>
                 <p>
-                  At Gillani Dawakhana, we believe that true health comes from nature. Every formula 
+                  At Gillani Herb's, we believe that true health comes from nature. Every formula 
                   is prepared fresh, using traditional methods, in glass containers to preserve the 
                   potency of each precious ingredient — never with artificial preservatives or chemicals.
                 </p>

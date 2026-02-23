@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { Facebook, Instagram, Phone, MapPin, Mail, Leaf } from "lucide-react";
+import { Facebook, Instagram, Phone, MapPin, Mail } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   return (
@@ -12,11 +13,9 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-full bg-gold/20 border-2 border-gold/60 flex items-center justify-center">
-                <Leaf className="w-5 h-5 text-gold" />
-              </div>
+              <img src={logo} alt="Gillani Herb's" className="w-12 h-12 rounded-full object-cover border-2 border-gold/60" />
               <div>
-                <div className="font-playfair font-bold text-lg text-gold">Gillani Dawakhana</div>
+                <div className="font-playfair font-bold text-lg text-gold">Gillani Herb's</div>
                 <div className="text-cream/60 text-xs tracking-wider">Herbalist & Unani Specialist</div>
               </div>
             </div>
@@ -117,7 +116,7 @@ const Footer = () => {
       {/* Bottom bar */}
       <div className="border-t border-gold/20 py-4">
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-2 text-xs text-cream/50">
-          <p>© 2024 Gillani Dawakhana. All rights reserved.</p>
+          <p>© 2024 Gillani Herb's. All rights reserved.</p>
           <p>Pure Organic Unani Herbal Products | Made with ♥ in Pakistan</p>
         </div>
       </div>

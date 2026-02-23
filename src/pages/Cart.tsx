@@ -27,7 +27,7 @@ const Cart = () => {
             Thank you for your order. We will contact you shortly via WhatsApp or phone to confirm.
           </p>
           <p className="text-gold font-crimson text-base italic mb-8">
-            Gillani Dawakhana — Pure Organic Herbal Products
+            Gillani Herb's — Pure Organic Herbal Products
           </p>
           <Link
             to="/shop"

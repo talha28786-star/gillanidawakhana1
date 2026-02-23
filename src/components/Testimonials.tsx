@@ -13,7 +13,7 @@ const testimonials = [
     id: 2,
     name: "Haji Abdul Rauf",
     location: "Karachi",
-    review: "I've been using Unani medicines for years and Gillani Dawakhana stands out for their purity. The Saffron Vitality Syrup is genuinely organic and the results speak for themselves.",
+    review: "I've been using Unani medicines for years and Gillani Herb's stands out for their purity. The Saffron Vitality Syrup is genuinely organic and the results speak for themselves.",
     rating: 5,
     product: "Saffron Vitality Syrup",
   },
@@ -21,7 +21,7 @@ const testimonials = [
     id: 3,
     name: "Dr. Naseem Ahmad",
     location: "Islamabad",
-    review: "As a physician, I trust few herbal products. Gillani Dawakhana's Herbal Energy Majoon is one I confidently recommend to patients. Authentic Unani preparation with no fillers.",
+    review: "As a physician, I trust few herbal products. Gillani Herb's Herbal Energy Majoon is one I confidently recommend to patients. Authentic Unani preparation with no fillers.",
     rating: 5,
     product: "Herbal Energy Majoon",
   },
@@ -50,7 +50,7 @@ const Testimonials = () => {
             What Our Customers Say
           </h2>
           <p className="text-cream/70 font-crimson text-lg max-w-xl mx-auto">
-            Thousands of satisfied customers trust Gillani Dawakhana for their wellness journey.
+            Thousands of satisfied customers trust Gillani Herb's for their wellness journey.
           </p>
         </div>
 

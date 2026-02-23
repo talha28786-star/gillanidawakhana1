@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { ShoppingCart, Menu, X, Leaf } from "lucide-react";
+import { ShoppingCart, Menu, X } from "lucide-react";
 import { useCart } from "@/hooks/useCart";
+import logo from "@/assets/logo.png";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -39,12 +40,10 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-full bg-gold/20 border-2 border-gold/60 flex items-center justify-center group-hover:bg-gold/30 transition-colors">
-              <Leaf className="w-5 h-5 text-gold" />
-            </div>
+            <img src={logo} alt="Gillani Herb's" className="w-12 h-12 rounded-full object-cover border-2 border-gold/60 group-hover:border-gold transition-colors" />
             <div>
               <div className="font-playfair font-bold text-lg text-gold leading-tight">
-                Gillani Dawakhana
+                Gillani Herb's
               </div>
               <div className="text-cream/70 text-xs font-crimson tracking-wider">
                 Pure Organic Unani Remedies

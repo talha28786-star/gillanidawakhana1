@@ -28,7 +28,7 @@ const slides = [
     id: 3,
     image: sliderApothecary,
     subtitle: "Trusted Since Generations",
-    title: "Trusted Herbal Remedies from Gillani Dawakhana",
+    title: "Trusted Herbal Remedies from Gillani Herb's",
     description: "Your health is our heritage. Every product crafted with integrity, purity, and the ancient art of Unani medicine.",
     cta: "Learn More",
     ctaLink: "/about",
