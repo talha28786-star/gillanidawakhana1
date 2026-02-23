@@ -69,7 +69,7 @@ const HeroSlider = () => {
         }}
       />
       {/* Overlay */}
-      <div className="absolute inset-0 bg-gradient-hero" />
+      <div className="absolute inset-0 bg-black/50" />
 
       {/* Ornate pattern overlay */}
       <div
@@ -80,15 +80,16 @@ const HeroSlider = () => {
       />
 
       {/* Content */}
-      <div className="relative z-10 h-full flex items-center">
+      <div className="relative z-10 h-full flex items-center justify-center text-center">
         <div className="container mx-auto px-4">
-          <div className="max-w-2xl">
+          <div className="max-w-2xl mx-auto">
             {/* Subtitle */}
-            <div className="flex items-center gap-3 mb-4 animate-fade-in-up">
+            <div className="flex items-center justify-center gap-3 mb-4 animate-fade-in-up">
               <div className="h-px w-12 bg-gold" />
               <span className="text-gold font-crimson text-lg tracking-widest uppercase">
                 {slide.subtitle}
               </span>
+              <div className="h-px w-12 bg-gold" />
             </div>
 
             {/* Title */}
@@ -101,22 +102,14 @@ const HeroSlider = () => {
               {slide.description}
             </p>
 
-            {/* CTA Buttons */}
-            <div className="flex flex-wrap gap-4 animate-fade-in-up">
+            {/* CTA Button */}
+            <div className="flex justify-center gap-4 animate-fade-in-up">
               <Link
-                to={slide.ctaLink}
-                className="inline-flex items-center gap-2 bg-gold hover:bg-gold-dark text-accent-foreground px-8 py-3.5 rounded-lg font-playfair font-semibold text-base transition-all duration-200 shadow-gold hover:shadow-lg hover:-translate-y-0.5"
+                to="/shop"
+                className="inline-flex items-center gap-2 bg-gold hover:bg-gold-dark text-accent-foreground px-10 py-4 rounded-lg font-playfair font-semibold text-lg transition-all duration-200 shadow-gold hover:shadow-lg hover:-translate-y-0.5"
               >
-                {slide.cta}
+                Shop Now
               </Link>
-              <a
-                href="https://wa.me/923000000000"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 border-2 border-cream/60 text-cream hover:bg-cream/10 px-8 py-3.5 rounded-lg font-playfair font-semibold text-base transition-all duration-200"
-              >
-                WhatsApp Order
-              </a>
             </div>
           </div>
         </div>
