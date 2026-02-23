@@ -44,19 +44,19 @@ const Contact = () => {
                   {
                     icon: Phone,
                     title: "Phone / WhatsApp",
-                    info: "+92 300 000 0000",
+                    info: "0313 7942009",
                     sub: "Available 9am – 9pm daily",
                   },
                   {
                     icon: MapPin,
                     title: "Store Location",
-                    info: "Main Bazaar, Gillani Chowk",
-                    sub: "City, Pakistan",
+                    info: "1. Adda Gamber Okara Cantt, Pakistan",
+                    sub: "2. Kacha Road, Kahna Nau Lahore, Pakistan",
                   },
                   {
                     icon: Mail,
                     title: "Email",
-                    info: "info@gillanidawakhana.com",
+                    info: "gillaniherbs5@gmail.com",
                     sub: "Response within 24 hours",
                   },
                   {
@@ -81,7 +81,7 @@ const Contact = () => {
 
               {/* WhatsApp CTA */}
               <a
-                href="https://wa.me/923000000000?text=Assalam%20o%20Alaikum%2C%20I%20would%20like%20to%20inquire%20about%20your%20products."
+                href="https://wa.me/923137942009?text=Assalam%20o%20Alaikum%2C%20I%20would%20like%20to%20inquire%20about%20your%20products."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-8 inline-flex items-center gap-3 px-6 py-3.5 rounded-xl font-playfair font-semibold transition-all duration-200 shadow-lg"
