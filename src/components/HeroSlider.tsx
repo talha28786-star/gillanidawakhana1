@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import sliderHerbs from "@/assets/slider-herbs.jpg";
 import sliderSaffron from "@/assets/slider-saffron.jpg";
@@ -9,29 +8,29 @@ const slides = [
   {
     id: 1,
     image: sliderHerbs,
-    subtitle: "Traditional Unani Wisdom",
-    title: "100% Pure & Organic Unani Formulations",
-    description: "Crafted with the finest herbs and time-honored recipes passed down through generations of expert herbalists.",
+    subtitle: "روایتی یونانی حکمت",
+    title: "100% خالص اور آرگینک یونانی نسخے",
+    description: "بہترین جڑی بوٹیوں اور ماہر حکیموں کے نسل در نسل نسخوں سے تیار۔",
     cta: "Explore Products",
     ctaLink: "/shop",
   },
   {
     id: 2,
     image: sliderSaffron,
-    subtitle: "Premium Zafraan Collection",
-    title: "Majoon-E-Jawan — With Premium Zafraan",
-    description: "Experience the power of pure saffron infused in our signature Majoon formulation for vitality and strength.",
+    subtitle: "پریمیم زعفران کلیکشن",
+    title: "معجون جوان — خالص زعفران کے ساتھ",
+    description: "ہماری خاص معجون میں خالص زعفران کی طاقت کا تجربہ کریں۔",
     cta: "Shop Now",
     ctaLink: "/shop",
   },
   {
     id: 3,
     image: sliderApothecary,
-    subtitle: "Trusted Since Generations",
-    title: "Trusted Herbal Remedies from Gillani Herb's",
-    description: "Your health is our heritage. Every product crafted with integrity, purity, and the ancient art of Unani medicine.",
-    cta: "Learn More",
-    ctaLink: "/about",
+    subtitle: "نسلوں سے قابلِ اعتماد",
+    title: "Gillani Herb's — قدرتی جڑی بوٹیوں کا اعتماد",
+    description: "آپ کی صحت ہماری میراث ہے۔ ہر پراڈکٹ خالص اور قدرتی اجزاء سے تیار کی جاتی ہے۔",
+    cta: "Shop Now",
+    ctaLink: "/shop",
   },
 ];
 
@@ -115,19 +114,7 @@ const HeroSlider = () => {
         </div>
       </div>
 
-      {/* Arrows */}
-      <button
-        onClick={prev}
-        className="absolute left-4 top-1/2 -translate-y-1/2 z-20 w-12 h-12 rounded-full bg-forest/60 border border-gold/40 flex items-center justify-center text-gold hover:bg-forest hover:border-gold transition-all"
-      >
-        <ChevronLeft className="w-6 h-6" />
-      </button>
-      <button
-        onClick={next}
-        className="absolute right-4 top-1/2 -translate-y-1/2 z-20 w-12 h-12 rounded-full bg-forest/60 border border-gold/40 flex items-center justify-center text-gold hover:bg-forest hover:border-gold transition-all"
-      >
-        <ChevronRight className="w-6 h-6" />
-      </button>
+      {/* No arrow buttons - auto scroll only */}
 
       {/* Dots */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex gap-3">

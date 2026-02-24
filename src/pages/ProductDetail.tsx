@@ -2,7 +2,8 @@ import { useParams, Link } from "react-router-dom";
 import { useState } from "react";
 import { ChevronLeft, Star, Truck, Shield, Leaf } from "lucide-react";
 import OrderForm from "@/components/OrderForm";
-import productMajoon from "@/assets/product-majoon.jpg";
+import productMajoon from "@/assets/majoon-product-1.jpg";
+import productMajoon2 from "@/assets/majoon-product-2.jpg";
 import productEnergy from "@/assets/product-energy.jpg";
 import productSyrup from "@/assets/product-syrup.jpg";
 
@@ -14,7 +15,7 @@ const allProducts = [
     description: "Premium saffron Unani herbal formulation for vitality and strength.",
     price: 5999,
     originalPrice: 6999,
-    images: [productMajoon, productEnergy, productSyrup],
+    images: [productMajoon, productMajoon2, productSyrup],
     badge: "Best Seller",
     rating: 4.9,
     reviews: 248,
