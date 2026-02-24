@@ -1,5 +1,5 @@
 import ProductCard from "@/components/ProductCard";
-import productMajoon from "@/assets/product-majoon.jpg";
+import productMajoon from "@/assets/majoon-product-1.jpg";
 import productEnergy from "@/assets/product-energy.jpg";
 import productSyrup from "@/assets/product-syrup.jpg";
 import { Filter } from "lucide-react";

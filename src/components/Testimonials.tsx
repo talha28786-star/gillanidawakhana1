@@ -5,7 +5,7 @@ const testimonials = [
     id: 1,
     name: "Muhammad Arif Khan",
     location: "Lahore",
-    review: "Majoon-E-Jawan has truly transformed my energy levels. After just 2 weeks of use, I feel revitalized and stronger. The quality of ingredients is exceptional — you can taste the real saffron!",
+    review: "معجون جوان نے میری توانائی بالکل بدل دی۔ صرف 2 ہفتوں میں فرق محسوس ہوا۔ زعفران کا ذائقہ بالکل اصلی ہے!",
     rating: 5,
     product: "Majoon-E-Jawan",
   },
@@ -13,7 +13,7 @@ const testimonials = [
     id: 2,
     name: "Haji Abdul Rauf",
     location: "Karachi",
-    review: "I've been using Unani medicines for years and Gillani Herb's stands out for their purity. The Saffron Vitality Syrup is genuinely organic and the results speak for themselves.",
+    review: "میں برسوں سے یونانی ادویات استعمال کر رہا ہوں۔ Gillani Herb's کی خالص اور اصلی پراڈکٹس بہترین ہیں۔",
     rating: 5,
     product: "Saffron Vitality Syrup",
   },
@@ -21,7 +21,7 @@ const testimonials = [
     id: 3,
     name: "Dr. Naseem Ahmad",
     location: "Islamabad",
-    review: "As a physician, I trust few herbal products. Gillani Herb's Herbal Energy Majoon is one I confidently recommend to patients. Authentic Unani preparation with no fillers.",
+    review: "بطور ڈاکٹر میں بہت کم جڑی بوٹیوں کی مصنوعات پر بھروسہ کرتا ہوں۔ Gillani Herb's کی معجون میں بھروسہ ہے۔",
     rating: 5,
     product: "Herbal Energy Majoon",
   },
@@ -29,7 +29,7 @@ const testimonials = [
     id: 4,
     name: "Zainab Fatima",
     location: "Multan",
-    review: "The packaging itself is premium — glass jars with gold lids. The product inside is even better. I ordered twice and each time the freshness and quality was consistent. Highly recommended!",
+    review: "پیکنگ بہت شاندار ہے — شیشے کے جار۔ پراڈکٹ کا معیار ہر بار ایک جیسا ملا۔ بہت تجویز کرتی ہوں!",
     rating: 5,
     product: "Majoon-E-Jawan",
   },
@@ -43,14 +43,14 @@ const Testimonials = () => {
         <div className="text-center mb-14">
           <div className="divider-ornament mb-4">
             <span className="text-gold font-crimson text-base tracking-widest uppercase">
-              Customer Reviews
+              صارفین کی آراء
             </span>
           </div>
           <h2 className="font-playfair font-bold text-4xl text-cream mb-4">
-            What Our Customers Say
+            ہمارے صارفین کیا کہتے ہیں
           </h2>
           <p className="text-cream/70 font-crimson text-lg max-w-xl mx-auto">
-            Thousands of satisfied customers trust Gillani Herb's for their wellness journey.
+            ہزاروں مطمئن صارفین Gillani Herb's پر اعتماد کرتے ہیں۔
           </p>
         </div>
 
@@ -66,7 +66,7 @@ const Testimonials = () => {
                 ))}
               </div>
 
-              <p className="text-cream/85 font-crimson text-base leading-relaxed mb-4 italic">
+              <p className="text-cream/85 font-crimson text-base leading-relaxed mb-4 italic" dir="rtl">
                 "{t.review}"
               </p>
 

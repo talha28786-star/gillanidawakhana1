@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Shield, Leaf, Award, Clock } from "lucide-react";
-import majoonHero from "@/assets/majoon-hero.jpg";
+import majoonHero from "@/assets/majoon-product-1.jpg";
 
 const features = [
   { icon: Leaf, title: "100% Natural", desc: "Pure organic ingredients sourced from trusted farms" },
@@ -49,13 +49,11 @@ const HeroFeatures = () => {
               </p>
               <div className="h-0.5 w-20 bg-gold mb-6" />
               <p className="text-muted-foreground font-crimson text-lg leading-relaxed mb-4">
-                Our flagship Unani herbal formulation enriched with premium saffron (Zafraan) and a blend of 
-                carefully selected natural herbs. Majoon-E-Jawan supports vitality, strength, and natural wellness 
-                — crafted with the wisdom of traditional Unani medicine.
+                ہماری سب سے مشہور یونانی جڑی بوٹیوں کی معجون جو خالص زعفران اور قدرتی جڑی بوٹیوں سے تیار کی جاتی ہے۔ 
+                معجون جوان طاقت، توانائی اور قدرتی صحت کے لیے بہترین ہے۔
               </p>
               <p className="text-muted-foreground font-crimson text-base leading-relaxed mb-8">
-                Each batch is prepared fresh, using glass jars to preserve potency, with no artificial 
-                preservatives or chemicals.
+                ہر بیچ تازہ تیار کیا جاتا ہے — بغیر کسی کیمیکل یا مصنوعی اجزاء کے۔
               </p>
 
               {/* Features grid */}
@@ -78,13 +76,7 @@ const HeroFeatures = () => {
                   to="/shop"
                   className="inline-flex items-center gap-2 bg-gold hover:bg-gold-dark text-accent-foreground px-8 py-3.5 rounded-lg font-playfair font-semibold transition-all duration-200 shadow-gold hover:-translate-y-0.5"
                 >
-                  Shop Now
-                </Link>
-                <Link
-                  to="/about"
-                  className="inline-flex items-center gap-2 border-2 border-forest text-forest hover:bg-forest hover:text-cream px-8 py-3.5 rounded-lg font-playfair font-semibold transition-all duration-200"
-                >
-                  Learn More
+                  ابھی خریدیں — Shop Now
                 </Link>
               </div>
             </div>

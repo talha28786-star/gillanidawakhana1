@@ -5,7 +5,7 @@ import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import { Link } from "react-router-dom";
 import { Leaf, Shield, Truck, Phone } from "lucide-react";
-import productMajoon from "@/assets/product-majoon.jpg";
+import productMajoon from "@/assets/majoon-product-1.jpg";
 import productEnergy from "@/assets/product-energy.jpg";
 import productSyrup from "@/assets/product-syrup.jpg";
 
@@ -131,14 +131,14 @@ const Index = () => {
               Gillani Herb's
             </h2>
             <div className="h-0.5 w-24 bg-gold mx-auto mb-6" />
-            <p className="text-muted-foreground font-crimson text-lg leading-relaxed mb-4">
-              Gillani Herb's is a trusted name in traditional Unani herbal medicine, 
-              dedicated to providing pure, organic remedies crafted from high-quality natural ingredients. 
-              Our expert herbalist brings decades of experience in classical Unani formulation.
+            <p className="text-muted-foreground font-crimson text-lg leading-relaxed mb-4" dir="rtl">
+              گیلانی ہربز روایتی یونانی جڑی بوٹیوں کی ادویات میں ایک قابلِ اعتماد نام ہے۔ 
+              ہم خالص، آرگینک اور اعلیٰ معیار کی قدرتی ادویات تیار کرتے ہیں۔ 
+              ہمارے ماہر حکیم کو کلاسیکل یونانی نسخوں میں دہائیوں کا تجربہ ہے۔
             </p>
-            <p className="text-muted-foreground font-crimson text-lg leading-relaxed mb-8">
-              We believe in the healing power of nature and the timeless wisdom of Unani medicine — 
-              bringing you remedies that are not only effective but completely free from synthetic chemicals.
+            <p className="text-muted-foreground font-crimson text-lg leading-relaxed mb-8" dir="rtl">
+              ہم قدرت کی شفائی طاقت اور یونانی طب کی دائمی حکمت پر یقین رکھتے ہیں — 
+              ہماری ادویات مؤثر بھی ہیں اور مصنوعی کیمیکلز سے بالکل پاک بھی۔
             </p>
             <Link
               to="/about"
