@@ -50,7 +50,7 @@ const HeroSlider = () => {
   const next = () => go((current + 1) % slides.length);
 
   useEffect(() => {
-    const timer = setInterval(next, 6000);
+    const timer = setInterval(next, 2000);
     return () => clearInterval(timer);
   }, [current]);
 

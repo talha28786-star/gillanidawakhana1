@@ -14,19 +14,20 @@ const products = [
     id: 1,
     name: "Majoon-E-Jawan",
     subtitle: "With Zafraan – Pure Organic",
-    description: "Traditional Unani herbal formulation made with premium saffron and natural ingredients to support vitality and strength. Packaged in premium glass herbal jars.",
-    price: 1800,
-    originalPrice: 2200,
+    description: "Premium saffron herbal formulation for vitality.",
+    price: 5999,
+    originalPrice: 6999,
     image: productMajoon,
     badge: "Best Seller",
     rating: 4.9,
     reviews: 248,
+    freeShipping: true,
   },
   {
     id: 2,
     name: "Herbal Energy Majoon",
     subtitle: "Organic & Chemical-Free",
-    description: "Natural herbal blend crafted for stamina, daily wellness and sustained energy. Made with ashwagandha, shilajit, and other powerful Unani herbs.",
+    description: "Natural herbal blend for stamina and energy.",
     price: 1400,
     image: productEnergy,
     badge: "New",
@@ -37,7 +38,7 @@ const products = [
     id: 3,
     name: "Saffron Vitality Syrup",
     subtitle: "Enriched with Pure Zafraan",
-    description: "Herbal syrup enriched with pure zafraan to promote overall well-being, digestive health, and natural vitality. A daily tonic for the whole family.",
+    description: "Herbal syrup for well-being and vitality.",
     price: 950,
     originalPrice: 1200,
     image: productSyrup,
@@ -172,7 +173,7 @@ const Index = () => {
               Shop Now
             </Link>
             <a
-              href="https://wa.me/923000000000"
+              href="https://wa.me/923137942009"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 border-2 border-forest text-forest hover:bg-forest/10 px-8 py-3.5 rounded-lg font-playfair font-semibold transition-all duration-200"

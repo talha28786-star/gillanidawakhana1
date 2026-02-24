@@ -9,19 +9,20 @@ const allProducts = [
     id: 1,
     name: "Majoon-E-Jawan",
     subtitle: "With Zafraan – Pure Organic",
-    description: "Traditional Unani herbal formulation made with premium saffron and natural ingredients to support vitality and strength. Packaged in premium glass herbal jars.",
-    price: 1800,
-    originalPrice: 2200,
+    description: "Premium saffron herbal formulation for vitality.",
+    price: 5999,
+    originalPrice: 6999,
     image: productMajoon,
     badge: "Best Seller",
     rating: 4.9,
     reviews: 248,
+    freeShipping: true,
   },
   {
     id: 2,
     name: "Herbal Energy Majoon",
     subtitle: "Organic & Chemical-Free",
-    description: "Natural herbal blend crafted for stamina, daily wellness and sustained energy. Made with ashwagandha, shilajit, and other powerful Unani herbs.",
+    description: "Natural herbal blend for stamina and energy.",
     price: 1400,
     image: productEnergy,
     badge: "New",
@@ -32,7 +33,7 @@ const allProducts = [
     id: 3,
     name: "Saffron Vitality Syrup",
     subtitle: "Enriched with Pure Zafraan",
-    description: "Herbal syrup enriched with pure zafraan to promote overall well-being, digestive health, and natural vitality. A daily tonic for the whole family.",
+    description: "Herbal syrup for well-being and vitality.",
     price: 950,
     originalPrice: 1200,
     image: productSyrup,
@@ -43,7 +44,7 @@ const allProducts = [
     id: 4,
     name: "Majoon-E-Jawan (Large)",
     subtitle: "500g Premium Pack",
-    description: "Our flagship Majoon in a large economy pack. Same premium quality with pure zafraan, ideal for families or extended treatment courses.",
+    description: "Flagship Majoon in large economy pack.",
     price: 3200,
     originalPrice: 3800,
     image: productMajoon,
@@ -55,7 +56,7 @@ const allProducts = [
     id: 5,
     name: "Zafraan Herbal Tonic",
     subtitle: "Daily Wellness Formula",
-    description: "A concentrated herbal tonic blend for immune support, energy, and natural vitality. Premium saffron meets classic Unani botanicals.",
+    description: "Concentrated herbal tonic for immune support.",
     price: 1100,
     image: productSyrup,
     rating: 4.6,
@@ -65,7 +66,7 @@ const allProducts = [
     id: 6,
     name: "Herbal Wellness Combo",
     subtitle: "Complete Unani Pack",
-    description: "Get Majoon-E-Jawan + Saffron Vitality Syrup together at a special price. A complete wellness routine from Gillani Herb's.",
+    description: "Majoon + Syrup combo at special price.",
     price: 2500,
     originalPrice: 2750,
     image: productEnergy,
@@ -94,7 +95,6 @@ const Shop = () => {
       </div>
 
       <div className="container mx-auto px-4 py-12">
-        {/* Filter bar */}
         <div className="flex items-center justify-between mb-8">
           <p className="text-muted-foreground font-crimson">
             Showing <strong className="text-foreground">{allProducts.length}</strong> products
